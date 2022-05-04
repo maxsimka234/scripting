@@ -1,6 +1,6 @@
 ---------uptime------ 
 
- 20:38:45 up 2 min,  1 user,  load average: 1.10, 0.80, 0.32
+ 20:40:55 up 4 min,  1 user,  load average: 0.16, 0.53, 0.28
 
 ---------------------- 
 
@@ -43,14 +43,14 @@ wtmp begins Wed Apr 20 20:48:06 2022
 
 ---------top 10 process by RAM usage---------
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root         659 21.5  3.8 652724 37884 ?        Ssl  20:36   0:24 /usr/lib/snapd/snapd
-root         715  0.1  2.1 108032 21268 ?        Ssl  20:36   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
-root         656  0.1  1.9  30536 19272 ?        Ss   20:36   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
-root         544  0.1  1.8 280832 18584 ?        SLsl 20:36   0:00 /sbin/multipathd -d -s
-root         349  0.3  1.6  54356 16564 ?        S<s  20:36   0:00 /lib/systemd/systemd-journald
-root         663  0.1  1.2 392932 12052 ?        Ssl  20:36   0:00 /usr/libexec/udisks2/udisksd
-systemd+     636  0.1  1.2  23500 11964 ?        Ss   20:36   0:00 /lib/systemd/systemd-resolved
-root           1  2.8  1.0  98900 10580 ?        Ss   20:36   0:03 /sbin/init
+root         659  9.9  3.8 652724 37884 ?        Ssl  20:36   0:24 /usr/lib/snapd/snapd
+root         715  0.0  2.1 108032 21268 ?        Ssl  20:36   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         656  0.0  1.9  30536 19272 ?        Ss   20:36   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         544  0.0  1.8 280832 18584 ?        SLsl 20:36   0:00 /sbin/multipathd -d -s
+root         349  0.1  1.6  54356 16564 ?        S<s  20:36   0:00 /lib/systemd/systemd-journald
+root         663  0.0  1.2 392932 12052 ?        Ssl  20:36   0:00 /usr/libexec/udisks2/udisksd
+systemd+     636  0.0  1.2  23500 11964 ?        Ss   20:36   0:00 /lib/systemd/systemd-resolved
+root           1  1.4  1.0  98900 10580 ?        Ss   20:36   0:03 /sbin/init
 root         700  0.0  0.9 235844  9188 ?        Ssl  20:36   0:00 /usr/libexec/polkitd --no-debug
 
 ---------------------------------------- 
@@ -64,7 +64,7 @@ nl    UNCONN 0      0                                            rtnl:systemd-re
 nl    UNCONN 0      0                                            rtnl:systemd-resolve/636             *            
 nl    UNCONN 0      0                                            rtnl:systemd/1                       *            
 nl    UNCONN 768    0                                         tcpdiag:kernel                          *            
-nl    UNCONN 4352   0                                         tcpdiag:ss/1003                         *            
+nl    UNCONN 4352   0                                         tcpdiag:ss/1049                         *            
 nl    UNCONN 0      0                                         selinux:kernel                          *            
 nl    UNCONN 0      0                                           audit:kernel                          *            
 nl    UNCONN 0      0                                           audit:systemd/1                       *            
@@ -75,7 +75,6 @@ nl    UNCONN 0      0                                       connector:kernel    
 nl    UNCONN 0      0                                          uevent:systemd/751                     *            
 nl    UNCONN 0      0                                          uevent:systemd-logind/661              *            
 nl    UNCONN 0      0                                          uevent:multipathd/544                  *            
-nl    UNCONN 0      0                                          uevent:systemd-udevd/382               *            
 nl    UNCONN 0      0                                          uevent:systemd-network/634             *            
 nl    UNCONN 0      0                                          uevent:-173589781                      *            
 nl    UNCONN 0      0                                          uevent:-452422386                      *            
@@ -98,6 +97,7 @@ nl    UNCONN 0      0                                          uevent:-173589781
 nl    UNCONN 0      0                                          uevent:systemd/1                       *            
 nl    UNCONN 0      0                                            genl:kernel                          *            
 nl    UNCONN 0      0                                            genl:systemd-network/634             *            
+nl    UNCONN 0      0                                      scsi-trans:kernel                          *            
 p_raw UNCONN 0      0                                            LLDP:enp0s3                          *            
 u_dgr UNCONN 0      0                             /run/systemd/notify 17895                          * 0           
 u_str LISTEN 0      4096                         /run/systemd/private 17898                          * 0           
@@ -171,7 +171,7 @@ tcp   LISTEN 0      128                                          [::]:ssh       
 ---------Virtual memoty usage-----------
 procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
  r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
- 1  0      0 554244  20016 275768    0    0  3633   159  578  683  8 49 43  0  0
+ 0  0      0 545272  20344 285144    0    0  1842    83  569  415  4 25 71  0  0
 
 ---------------------------------------- 
 
