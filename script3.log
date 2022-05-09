@@ -1,0 +1,233 @@
+---------uptime------ 
+
+ 15:50:46 up 1 min,  2 users,  load average: 2.19, 0.85, 0.31
+
+---------------------- 
+
+
+---------users------ 
+
+maxsimka maxsimka
+
+---------------------- 
+
+
+---------recent logins------ 
+
+maxsimka pts/0        :0               Mon May  9 15:50   still logged in
+maxsimka tty1                          Mon May  9 15:51   still logged in
+reboot   system boot  5.13.0-40-generi Mon May  9 15:50   still running
+maxsimka pts/0        :0               Mon May  9 13:19 - 13:20  (00:01)
+maxsimka pts/1        :0               Mon May  9 13:10 - 13:11  (00:00)
+maxsimka pts/0        :0               Mon May  9 12:47 - 13:11  (00:24)
+maxsimka tty1                          Mon May  9 12:37 - down   (00:44)
+reboot   system boot  5.13.0-40-generi Mon May  9 12:38 - 13:21  (00:43)
+maxsimka pts/0        :0               Mon May  9 09:36 - 09:43  (00:06)
+maxsimka tty1                          Mon May  9 09:16 - down   (00:28)
+reboot   system boot  5.13.0-40-generi Mon May  9 09:14 - 09:45  (00:30)
+maxsimka tty1                          Mon May  9 09:05 - crash  (00:09)
+reboot   system boot  5.13.0-40-generi Mon May  9 09:05 - 09:45  (00:39)
+maxsimka pts/0        :0               Sun May  8 22:30 - 22:30  (00:00)
+maxsimka pts/1        :0               Sun May  8 22:29 - 22:30  (00:00)
+maxsimka pts/0        :0               Sun May  8 22:29 - 22:30  (00:00)
+maxsimka pts/0        :0               Sun May  8 22:29 - 22:29  (00:00)
+maxsimka pts/2        tmux(2015).%1    Sun May  8 22:29 - 22:30  (00:01)
+maxsimka pts/1        tmux(2015).%0    Sun May  8 22:29 - 22:29  (00:00)
+maxsimka pts/0        :0               Sun May  8 22:24 - 22:25  (00:00)
+maxsimka pts/0        :0               Sun May  8 22:20 - 22:24  (00:04)
+maxsimka tty1                          Sun May  8 22:18 - down   (00:12)
+reboot   system boot  5.13.0-40-generi Sun May  8 22:17 - 22:30  (00:13)
+reboot   system boot  5.13.0-40-generi Sun May  8 22:15 - 22:30  (00:15)
+maxsimka tty1                          Sun May  8 22:11 - crash  (00:03)
+reboot   system boot  5.13.0-40-generi Sun May  8 22:09 - 22:30  (00:20)
+maxsimka tty1                          Sun May  8 22:06 - down   (00:03)
+reboot   system boot  5.13.0-40-generi Sun May  8 22:04 - 22:09  (00:04)
+maxsimka tty1                          Sun May  8 21:56 - down   (00:07)
+reboot   system boot  5.13.0-40-generi Sun May  8 21:57 - 22:04  (00:07)
+maxsimka pts/0        192.168.31.156   Wed May  4 20:39 - 20:46  (00:06)
+reboot   system boot  5.13.0-40-generi Wed May  4 20:38 - 20:46  (00:07)
+maxsimka pts/0        192.168.31.156   Wed May  4 20:27 - 20:28  (00:01)
+maxsimka tty1                          Wed May  4 19:25 - down   (01:03)
+reboot   system boot  5.13.0-40-generi Wed May  4 19:18 - 20:28  (01:09)
+maxsimka pts/0        192.168.31.156   Wed May  4 12:54 - 12:56  (00:01)
+maxsimka tty1                          Wed May  4 12:51 - down   (00:06)
+reboot   system boot  5.13.0-40-generi Wed May  4 12:51 - 12:58  (00:06)
+maxsimka pts/0        192.168.31.156   Tue May  3 19:53 - crash  (16:58)
+maxsimka tty1                          Tue May  3 19:52 - crash  (16:59)
+reboot   system boot  5.13.0-40-generi Tue May  3 19:51 - 12:58  (17:07)
+maxsimka tty1                          Tue May  3 19:48 - crash  (00:02)
+reboot   system boot  5.13.0-40-generi Tue May  3 19:49 - 12:58  (17:08)
+maxsimka tty1                          Fri Apr 29 14:27 - down   (01:08)
+maxsimka tty1                          Fri Apr 29 14:25 - 14:27  (00:01)
+reboot   system boot  5.13.0-40-generi Fri Apr 29 14:25 - 15:35  (01:10)
+maxsimka pts/0        192.168.31.156   Wed Apr 20 21:06 - 21:40  (00:33)
+maxsimka tty1                          Wed Apr 20 21:04 - down   (00:52)
+reboot   system boot  5.13.0-40-generi Wed Apr 20 21:03 - 21:57  (00:53)
+maxsimka tty1                          Wed Apr 20 20:49 - crash  (00:13)
+reboot   system boot  5.13.0-40-generi Wed Apr 20 20:48 - 21:57  (01:09)
+
+wtmp begins Wed Apr 20 20:48:06 2022
+
+---------------------- 
+
+
+---------top 10 process by RAM usage---------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+maxsimka     942  3.0  6.1 269792 60908 tty1     Sl   15:49   0:01 /usr/lib/xorg/Xorg -nolisten tcp :0 vt1 -keeptty -auth /tmp/serverauth.YSjumwhbzd
+root         701 36.9  3.4 726456 34548 ?        Ssl  15:49   0:29 /usr/lib/snapd/snapd
+maxsimka     953  4.4  2.9 348336 29328 tty1     Sl   15:50   0:01 x-window-manager
+root         750  0.4  2.1 108032 21304 ?        Ssl  15:49   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         697  0.3  1.9  30532 19264 ?        Ss   15:49   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         565  0.2  1.8 280832 18584 ?        SLsl 15:49   0:00 /sbin/multipathd -d -s
+root         349  0.5  1.6  54248 16844 ?        S<s  15:49   0:00 /lib/systemd/systemd-journald
+root         705  0.2  1.2 393020 12200 ?        Ssl  15:49   0:00 /usr/libexec/udisks2/udisksd
+systemd+     677  0.4  1.2  23500 11984 ?        Ss   15:49   0:00 /lib/systemd/systemd-resolved
+
+---------------------------------------- 
+
+
+---------all open TCP/UDP ports-----------
+Netid State  Recv-Q Send-Q                              Local Address:Port                Peer Address:Port Process
+nl    UNCONN 0      0                                            rtnl:kernel                          *            
+nl    UNCONN 0      0                                            rtnl:systemd/1                       *            
+nl    UNCONN 0      0                                            rtnl:systemd-resolve/677             *            
+nl    UNCONN 0      0                                            rtnl:systemd-resolve/677             *            
+nl    UNCONN 0      0                                            rtnl:systemd/1                       *            
+nl    UNCONN 768    0                                         tcpdiag:kernel                          *            
+nl    UNCONN 4352   0                                         tcpdiag:ss/1154                         *            
+nl    UNCONN 0      0                                         selinux:kernel                          *            
+nl    UNCONN 0      0                                           audit:systemd/1                       *            
+nl    UNCONN 0      0                                           audit:-1593542476                     *            
+nl    UNCONN 0      0                                           audit:kernel                          *            
+nl    UNCONN 0      0                                           audit:systemd/1                       *            
+nl    UNCONN 0      0                                       fiblookup:kernel                          *            
+nl    UNCONN 0      0                                       connector:kernel                          *            
+nl    UNCONN 0      0                                          uevent:udisksd/705                     *            
+nl    UNCONN 0      0                                          uevent:-818434265                      *            
+nl    UNCONN 0      0                                          uevent:-207189990                      *            
+nl    UNCONN 0      0                                          uevent:systemd/1                       *            
+nl    UNCONN 0      0                                          uevent:systemd-udevd/382               *            
+nl    UNCONN 0      0                                          uevent:systemd-logind/703              *            
+nl    UNCONN 0      0                                          uevent:systemd-network/675             *            
+nl    UNCONN 0      0                                          uevent:Xorg/942                        *            
+nl    UNCONN 0      0                                          uevent:kernel                          *            
+nl    UNCONN 0      0                                          uevent:systemd/901                     *            
+nl    UNCONN 0      0                                          uevent:-420420715                      *            
+nl    UNCONN 0      0                                          uevent:-485378109                      *            
+nl    UNCONN 0      0                                          uevent:snapd/701                       *            
+nl    UNCONN 0      0                                          uevent:multipathd/565                  *            
+nl    UNCONN 0      0                                          uevent:-302015078                      *            
+nl    UNCONN 0      0                                          uevent:ModemManager/729                *            
+nl    UNCONN 0      0                                          uevent:snapd/701                       *            
+nl    UNCONN 0      0                                          uevent:-420420715                      *            
+nl    UNCONN 0      0                                          uevent:Xorg/942                        *            
+nl    UNCONN 0      0                                          uevent:systemd/901                     *            
+nl    UNCONN 0      0                                          uevent:ModemManager/729                *            
+nl    UNCONN 0      0                                          uevent:-485378109                      *            
+nl    UNCONN 0      0                                          uevent:-302015078                      *            
+nl    UNCONN 0      0                                          uevent:-818434265                      *            
+nl    UNCONN 0      0                                          uevent:systemd-logind/703              *            
+nl    UNCONN 0      0                                          uevent:udisksd/705                     *            
+nl    UNCONN 0      0                                          uevent:systemd-network/675             *            
+nl    UNCONN 0      0                                          uevent:multipathd/565                  *            
+nl    UNCONN 0      0                                          uevent:-207189990                      *            
+nl    UNCONN 0      0                                          uevent:systemd/1                       *            
+nl    UNCONN 0      0                                            genl:systemd-network/675             *            
+nl    UNCONN 0      0                                            genl:kernel                          *            
+nl    UNCONN 0      0                                      scsi-trans:kernel                          *            
+p_raw UNCONN 0      0                                            LLDP:enp0s3                          *            
+u_str LISTEN 0      4096                     /run/lvm/lvmpolld.socket 17911                          * 0           
+u_dgr UNCONN 0      0                     /run/systemd/journal/syslog 17914                          * 0           
+u_str LISTEN 0      4096                   /run/systemd/fsck.progress 17916                          * 0           
+u_dgr UNCONN 0      0                    /run/systemd/journal/dev-log 17923                          * 0           
+u_dgr UNCONN 0      0                     /run/systemd/journal/socket 17925                          * 0           
+u_str LISTEN 0      4096                  /run/systemd/journal/stdout 17927                          * 0           
+u_seq LISTEN 0      4096                            /run/udev/control 17930                          * 0           
+u_dgr UNCONN 0      0                   /run/user/1000/systemd/notify 20959                          * 0           
+u_str LISTEN 0      4096               /run/user/1000/systemd/private 20962                          * 0           
+u_str LISTEN 0      4096                           /run/user/1000/bus 20969                          * 0           
+u_str LISTEN 0      4096      /run/systemd/journal/io.systemd.journal 17966                          * 0           
+u_str LISTEN 0      4096        @/org/kernel/linux/storage/multipathd 17913                          * 0           
+u_str LISTEN 0      4096               /run/user/1000/gnupg/S.dirmngr 20971                          * 0           
+u_str LISTEN 0      4096     /run/user/1000/gnupg/S.gpg-agent.browser 20973                          * 0           
+u_str LISTEN 0      4096       /run/user/1000/gnupg/S.gpg-agent.extra 20975                          * 0           
+u_str LISTEN 0      4096         /run/user/1000/gnupg/S.gpg-agent.ssh 20977                          * 0           
+u_str LISTEN 0      4096             /run/user/1000/gnupg/S.gpg-agent 20979                          * 0           
+u_str LISTEN 0      4096             /run/user/1000/pk-debconf-socket 20981                          * 0           
+u_str LISTEN 0      4096    /run/user/1000/snapd-session-agent.socket 20983                          * 0           
+u_str LISTEN 0      4096                           @/tmp/.X11-unix/X0 21059                          * 0           
+u_str LISTEN 0      4096         /var/snap/lxd/common/lxd/unix.socket 20009                          * 0           
+u_str LISTEN 0      4096    /var/snap/lxd/common/lxd-user/unix.socket 20011                          * 0           
+u_str LISTEN 0      128               /tmp/ssh-wPefFi3NKjXr/agent.953 21183                          * 0           
+u_str LISTEN 0      4096                            /tmp/.X11-unix/X0 21060                          * 0           
+u_str LISTEN 0      4096                 @ISCSIADM_ABSTRACT_NAMESPACE 20008                          * 0           
+u_str LISTEN 0      4096      /run/systemd/resolve/io.systemd.Resolve 19870                          * 0           
+u_str LISTEN 0      4096                  /run/dbus/system_bus_socket 19991                          * 0           
+u_str LISTEN 0      4096                            /run/snapd.socket 20013                          * 0           
+u_str LISTEN 0      4096                       /run/snapd-snap.socket 20015                          * 0           
+u_str LISTEN 0      4096                           /run/uuidd/request 20017                          * 0           
+u_dgr UNCONN 0      0                             /run/systemd/notify 17897                          * 0           
+u_str LISTEN 0      4096                         /run/systemd/private 17900                          * 0           
+u_str LISTEN 0      4096   /run/systemd/userdb/io.systemd.DynamicUser 17902                          * 0           
+u_str LISTEN 0      4096            /run/systemd/io.system.ManagedOOM 17903                          * 0           
+u_dgr UNCONN 0      0                                               * 19270                          * 19271       
+u_dgr UNCONN 0      0                                               * 19263                          * 17925       
+u_dgr UNCONN 0      0                                               * 19851                          * 17925       
+u_dgr UNCONN 0      0                                               * 19756                          * 19757       
+u_dgr UNCONN 0      0                                               * 20918                          * 17923       
+u_dgr UNCONN 0      0                                               * 18287                          * 18288       
+u_dgr UNCONN 0      0                                               * 19759                          * 19758       
+u_dgr UNCONN 0      0                                               * 20517                          * 17923       
+u_dgr UNCONN 0      0                                               * 19749                          * 17925       
+u_dgr UNCONN 0      0                                               * 20236                          * 0           
+u_dgr UNCONN 0      0                                               * 20960                          * 20961       
+u_dgr UNCONN 0      0                                               * 17898                          * 17899       
+u_dgr UNCONN 0      0                                               * 17968                          * 17897       
+u_dgr UNCONN 0      0                                               * 20961                          * 20960       
+u_dgr UNCONN 0      0                                               * 18283                          * 17925       
+u_dgr UNCONN 0      0                                               * 21472                          * 17925       
+u_dgr UNCONN 0      0                                               * 19757                          * 19756       
+u_dgr UNCONN 0      0                                               * 19269                          * 19268       
+u_dgr UNCONN 0      0                                               * 20859                          * 17923       
+u_dgr UNCONN 0      0                                               * 20246                          * 17923       
+u_dgr UNCONN 0      0                                               * 19758                          * 19759       
+u_dgr UNCONN 0      0                                               * 20938                          * 17925       
+u_dgr UNCONN 0      0                                               * 18288                          * 18287       
+u_dgr UNCONN 0      0                                               * 21115                          * 17923       
+u_dgr UNCONN 0      0                                               * 17899                          * 17898       
+u_dgr UNCONN 0      0                                               * 18162                          * 17925       
+u_dgr UNCONN 0      0                                               * 19268                          * 19269       
+u_dgr UNCONN 0      0                                               * 20454                          * 17925       
+u_dgr UNCONN 0      0                                               * 19271                          * 19270       
+u_dgr UNCONN 0      0                                               * 20039                          * 17923       
+u_dgr UNCONN 0      0                                               * 20286                          * 17923       
+icmp6 UNCONN 0      0                                        *%enp0s3:ipv6-icmp                      *:*           
+udp   UNCONN 0      0                                   127.0.0.53%lo:domain                   0.0.0.0:*           
+udp   UNCONN 0      0                           192.168.31.121%enp0s3:bootpc                   0.0.0.0:*           
+tcp   LISTEN 0      4096                                127.0.0.53%lo:domain                   0.0.0.0:*           
+tcp   LISTEN 0      128                                       0.0.0.0:ssh                      0.0.0.0:*           
+tcp   LISTEN 0      128                                          [::]:ssh                         [::]:*           
+
+---------------------------------------- 
+
+
+---------Virtual memoty usage-----------
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0      0 399564  25624 373596    0    0  6365   198  473  989 14 80  5  1  0
+
+---------------------------------------- 
+
+
+---------usage of disck space-----------
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                               98M  1.1M   97M   2% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv  9.6G  6.2G  2.9G  69% /
+tmpfs                              486M     0  486M   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          974M   84M  823M  10% /boot
+tmpfs                               98M  4.0K   98M   1% /run/user/1000
+
+---------------------------------------- 
+
+
