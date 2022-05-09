@@ -1,5 +1,5 @@
 #!/bin/bash
-file="script3_dat.txt"
+file="script3.log"
 
 echo -e "---------uptime------ \n">$file
 uptime>>$file
